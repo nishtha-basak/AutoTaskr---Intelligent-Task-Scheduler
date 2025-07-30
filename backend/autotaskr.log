@@ -1,0 +1,878 @@
+2025-07-30 23:01:48,200 - INFO - [Worker] Listening on localhost:6000
+2025-07-30 23:01:57,802 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-30 23:01:57,803 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 23:01:57,819 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-30 23:01:58,689 - WARNING -  * Debugger is active!
+2025-07-30 23:01:58,692 - INFO -  * Debugger PIN: 308-575-468
+2025-07-30 23:02:43,747 - INFO - 127.0.0.1 - - [30/Jul/2025 23:02:43] "GET /schedule HTTP/1.1" 200 -
+2025-07-30 23:03:06,314 - INFO - [Task Created] dsa
+2025-07-30 23:03:06,327 - INFO - [Worker] Connected by ('127.0.0.1', 62758)
+2025-07-30 23:03:06,328 - INFO - [Worker] Executing task: dsa
+2025-07-30 23:03:08,329 - INFO - [Master] Worker response: done
+2025-07-30 23:03:08,381 - INFO - [Scheduler] New schedule generated.
+2025-07-30 23:03:12,472 - INFO - 127.0.0.1 - - [30/Jul/2025 23:03:12] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2025-07-30 23:03:14,500 - INFO - 127.0.0.1 - - [30/Jul/2025 23:03:14] "GET /schedule HTTP/1.1" 200 -
+2025-07-30 23:06:57,766 - INFO - [Recovery] Rescheduling missed task: dsa
+2025-07-30 23:06:57,925 - INFO - [Worker] Connected by ('127.0.0.1', 62799)
+2025-07-30 23:06:57,926 - INFO - [Worker] Executing task: dsa
+2025-07-30 23:06:58,664 - INFO - [Recovery] Rescheduling missed task: dsa
+2025-07-30 23:06:58,672 - INFO - [Worker] Connected by ('127.0.0.1', 62800)
+2025-07-30 23:06:58,672 - INFO - [Worker] Executing task: dsa
+2025-07-30 23:06:59,927 - INFO - [Master] Worker response: done
+2025-07-30 23:07:00,673 - INFO - [Master] Worker response: done
+2025-07-30 23:22:22,899 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\log_config.py', reloading
+2025-07-30 23:22:22,901 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\log_config.py', reloading
+2025-07-30 23:22:22,901 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\log_config.py', reloading
+2025-07-30 23:27:33,451 - INFO - [Worker] Listening on localhost:6000
+2025-07-30 23:27:49,032 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-30 23:27:49,032 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 23:27:49,070 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-30 23:27:50,651 - WARNING -  * Debugger is active!
+2025-07-30 23:27:50,656 - INFO -  * Debugger PIN: 308-575-468
+2025-07-30 23:28:09,836 - INFO - 127.0.0.1 - - [30/Jul/2025 23:28:09] "GET /schedule HTTP/1.1" 200 -
+2025-07-30 23:28:45,604 - INFO - [Task Created] book tickets
+2025-07-30 23:28:45,617 - INFO - [Worker] Connected by ('127.0.0.1', 63198)
+2025-07-30 23:28:45,617 - INFO - [Worker] Executing task: book tickets
+2025-07-30 23:28:46,618 - INFO - [Master] Worker response: done
+2025-07-30 23:28:46,668 - INFO - [Scheduler] New schedule generated.
+2025-07-30 23:28:50,769 - INFO - 127.0.0.1 - - [30/Jul/2025 23:28:50] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2025-07-30 23:28:52,810 - INFO - 127.0.0.1 - - [30/Jul/2025 23:28:52] "GET /schedule HTTP/1.1" 200 -
+2025-07-30 23:29:16,751 - INFO - 127.0.0.1 - - [30/Jul/2025 23:29:16] "GET /schedule HTTP/1.1" 200 -
+2025-07-30 23:29:20,331 - INFO - [Task Created] mail docs
+2025-07-30 23:29:20,335 - INFO - [Worker] Connected by ('127.0.0.1', 63210)
+2025-07-30 23:29:20,336 - INFO - [Worker] Executing task: mail docs
+2025-07-30 23:29:21,337 - INFO - [Master] Worker response: done
+2025-07-30 23:29:21,339 - INFO - [Worker] Connected by ('127.0.0.1', 63212)
+2025-07-30 23:29:21,340 - INFO - [Worker] Executing task: book tickets
+2025-07-30 23:29:22,341 - INFO - [Master] Worker response: done
+2025-07-30 23:29:22,360 - INFO - [Scheduler] New schedule generated.
+2025-07-30 23:29:26,455 - INFO - 127.0.0.1 - - [30/Jul/2025 23:29:26] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2025-07-30 23:29:28,529 - INFO - 127.0.0.1 - - [30/Jul/2025 23:29:28] "GET /schedule HTTP/1.1" 200 -
+2025-07-30 23:29:49,887 - INFO - Shutting down scheduler...
+2025-07-30 23:29:50,146 - INFO - Shutting down scheduler...
+2025-07-30 23:32:14,358 - INFO - [Worker] Listening on localhost:6000
+2025-07-30 23:32:29,183 - INFO - [Recovery] Rescheduling missed task: mail docs
+2025-07-30 23:32:29,197 - INFO - [Worker] Connected by ('127.0.0.1', 63314)
+2025-07-30 23:32:29,197 - INFO - [Worker] Executing task: mail docs
+2025-07-30 23:32:29,260 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-30 23:32:29,260 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 23:32:29,290 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-30 23:32:30,198 - INFO - [Master] Worker response: done
+2025-07-30 23:32:30,202 - INFO - [Worker] Connected by ('127.0.0.1', 63315)
+2025-07-30 23:32:30,202 - INFO - [Worker] Executing task: book tickets
+2025-07-30 23:32:30,669 - INFO - [Recovery] Rescheduling missed task: mail docs
+2025-07-30 23:32:30,685 - INFO - [Worker] Connected by ('127.0.0.1', 63316)
+2025-07-30 23:32:30,685 - INFO - [Worker] Executing task: mail docs
+2025-07-30 23:32:30,736 - WARNING -  * Debugger is active!
+2025-07-30 23:32:30,743 - INFO -  * Debugger PIN: 308-575-468
+2025-07-30 23:32:31,203 - INFO - [Master] Worker response: done
+2025-07-30 23:32:31,686 - INFO - [Master] Worker response: done
+2025-07-30 23:32:31,690 - INFO - [Worker] Connected by ('127.0.0.1', 63317)
+2025-07-30 23:32:31,691 - INFO - [Worker] Executing task: book tickets
+2025-07-30 23:32:32,693 - INFO - [Master] Worker response: done
+2025-07-30 23:32:52,179 - INFO - Shutting down scheduler...
+2025-07-30 23:32:52,371 - INFO - Shutting down scheduler...
+2025-07-30 23:33:52,416 - INFO - [Recovery] Rescheduling missed task: mail docs
+2025-07-30 23:33:52,429 - INFO - [Worker] Connected by ('127.0.0.1', 63326)
+2025-07-30 23:33:52,429 - INFO - [Worker] Executing task: mail docs
+2025-07-30 23:33:52,514 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-30 23:33:52,514 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 23:33:52,518 - INFO -  * Restarting with stat
+2025-07-30 23:33:53,430 - INFO - [Master] Worker response: done
+2025-07-30 23:33:53,432 - INFO - [Worker] Connected by ('127.0.0.1', 63327)
+2025-07-30 23:33:53,432 - INFO - [Worker] Executing task: book tickets
+2025-07-30 23:33:53,794 - INFO - [Recovery] Rescheduling missed task: mail docs
+2025-07-30 23:33:53,810 - INFO - [Worker] Connected by ('127.0.0.1', 63328)
+2025-07-30 23:33:53,810 - INFO - [Worker] Executing task: mail docs
+2025-07-30 23:33:53,840 - WARNING -  * Debugger is active!
+2025-07-30 23:33:53,844 - INFO -  * Debugger PIN: 103-490-843
+2025-07-30 23:33:54,433 - INFO - [Master] Worker response: done
+2025-07-30 23:33:54,811 - INFO - [Master] Worker response: done
+2025-07-30 23:33:54,814 - INFO - [Worker] Connected by ('127.0.0.1', 63329)
+2025-07-30 23:33:54,815 - INFO - [Worker] Executing task: book tickets
+2025-07-30 23:33:55,815 - INFO - [Master] Worker response: done
+2025-07-30 23:36:15,526 - INFO - Shutting down scheduler...
+2025-07-30 23:36:15,746 - INFO - Shutting down scheduler...
+2025-07-30 23:36:22,775 - INFO - [Recovery] Rescheduling missed task: mail docs
+2025-07-30 23:36:22,793 - INFO - [Worker] Connected by ('127.0.0.1', 63365)
+2025-07-30 23:36:22,794 - INFO - [Worker] Executing task: mail docs
+2025-07-30 23:36:22,852 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-30 23:36:22,852 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 23:36:22,855 - INFO -  * Restarting with stat
+2025-07-30 23:36:23,795 - INFO - [Master] Worker response: done
+2025-07-30 23:36:23,798 - INFO - [Worker] Connected by ('127.0.0.1', 63366)
+2025-07-30 23:36:23,798 - INFO - [Worker] Executing task: book tickets
+2025-07-30 23:36:24,439 - INFO - [Recovery] Rescheduling missed task: mail docs
+2025-07-30 23:36:24,451 - INFO - [Worker] Connected by ('127.0.0.1', 63367)
+2025-07-30 23:36:24,451 - INFO - [Worker] Executing task: mail docs
+2025-07-30 23:36:24,475 - WARNING -  * Debugger is active!
+2025-07-30 23:36:24,479 - INFO -  * Debugger PIN: 103-490-843
+2025-07-30 23:36:24,799 - INFO - [Master] Worker response: done
+2025-07-30 23:36:25,452 - INFO - [Master] Worker response: done
+2025-07-30 23:36:25,456 - INFO - [Worker] Connected by ('127.0.0.1', 63368)
+2025-07-30 23:36:25,456 - INFO - [Worker] Executing task: book tickets
+2025-07-30 23:36:26,458 - INFO - [Master] Worker response: done
+2025-07-30 23:36:29,609 - INFO - Shutting down scheduler...
+2025-07-30 23:36:29,815 - INFO - Shutting down scheduler...
+2025-07-30 23:39:38,754 - INFO - [Recovery] Rescheduling missed task: mail docs
+2025-07-30 23:39:38,845 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-30 23:39:38,846 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 23:39:38,875 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-30 23:39:40,401 - INFO - [Recovery] Rescheduling missed task: mail docs
+2025-07-30 23:39:40,451 - WARNING -  * Debugger is active!
+2025-07-30 23:39:40,456 - INFO -  * Debugger PIN: 308-575-468
+2025-07-30 23:39:40,791 - ERROR - [Master] Worker error: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-07-30 23:39:42,457 - ERROR - [Master] Worker error: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-07-30 23:39:42,807 - ERROR - [Master] Worker error: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-07-30 23:39:44,488 - ERROR - [Master] Worker error: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-07-30 23:40:36,544 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\services\\replanner.py', reloading
+2025-07-30 23:40:36,573 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\services\\replanner.py', reloading
+2025-07-30 23:40:37,027 - INFO - Shutting down scheduler...
+2025-07-30 23:40:37,198 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-30 23:40:38,330 - INFO - [Recovery] Rescheduling missed task: mail docs
+2025-07-30 23:40:38,366 - WARNING -  * Debugger is active!
+2025-07-30 23:40:38,369 - INFO -  * Debugger PIN: 308-575-468
+2025-07-30 23:40:40,370 - ERROR - [Master] Worker error: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-07-30 23:40:42,162 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\services\\replanner.py', reloading
+2025-07-30 23:40:42,192 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\services\\replanner.py', reloading
+2025-07-30 23:40:42,406 - ERROR - [Master] Worker error: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-07-30 23:40:42,455 - INFO - Shutting down scheduler...
+2025-07-30 23:40:42,674 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-30 23:40:44,379 - INFO - [Recovery] Rescheduling missed task: mail docs
+2025-07-30 23:40:44,441 - WARNING -  * Debugger is active!
+2025-07-30 23:40:44,447 - INFO -  * Debugger PIN: 308-575-468
+2025-07-30 23:40:46,206 - INFO - Shutting down scheduler...
+2025-07-30 23:40:46,387 - INFO - Shutting down scheduler...
+2025-07-30 23:41:00,401 - INFO - [Worker] Listening on localhost:6000
+2025-07-30 23:41:10,246 - INFO - [Recovery] Rescheduling missed task: mail docs
+2025-07-30 23:41:10,261 - INFO - [Worker] Connected by ('127.0.0.1', 63419)
+2025-07-30 23:41:10,261 - INFO - [Worker] Executing task: mail docs
+2025-07-30 23:41:10,339 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-30 23:41:10,339 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 23:41:10,368 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-30 23:41:11,262 - INFO - [Master] Worker response: done
+2025-07-30 23:41:11,265 - INFO - [Worker] Connected by ('127.0.0.1', 63420)
+2025-07-30 23:41:11,265 - INFO - [Worker] Executing task: book tickets
+2025-07-30 23:41:11,751 - INFO - [Recovery] Rescheduling missed task: mail docs
+2025-07-30 23:41:11,765 - INFO - [Worker] Connected by ('127.0.0.1', 63421)
+2025-07-30 23:41:11,766 - INFO - [Worker] Executing task: mail docs
+2025-07-30 23:41:11,803 - WARNING -  * Debugger is active!
+2025-07-30 23:41:11,809 - INFO -  * Debugger PIN: 308-575-468
+2025-07-30 23:41:12,266 - INFO - [Master] Worker response: done
+2025-07-30 23:41:12,319 - INFO - [Reoptimizer] Schedule re-optimized. Time lost: 0.01 hrs. Task: mail docs
+2025-07-30 23:41:12,320 - INFO - [Notification] Schedule re-optimized! Lost 0.0 hours due to delay with 'mail docs'.
+2025-07-30 23:41:12,767 - INFO - [Master] Worker response: done
+2025-07-30 23:41:12,770 - INFO - [Worker] Connected by ('127.0.0.1', 63423)
+2025-07-30 23:41:12,770 - INFO - [Worker] Executing task: book tickets
+2025-07-30 23:41:13,772 - INFO - [Master] Worker response: done
+2025-07-30 23:41:13,825 - INFO - [Reoptimizer] Schedule re-optimized. Time lost: 0.01 hrs. Task: mail docs
+2025-07-30 23:41:13,826 - INFO - [Notification] Schedule re-optimized! Lost 0.0 hours due to delay with 'mail docs'.
+2025-07-30 23:42:16,124 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\scheduler.py', reloading
+2025-07-30 23:42:16,125 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\scheduler.py', reloading
+2025-07-30 23:42:16,154 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\scheduler.py', reloading
+2025-07-30 23:42:16,441 - INFO - Shutting down scheduler...
+2025-07-30 23:42:16,658 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-30 23:42:18,382 - INFO - [Recovery] Rescheduling missed task: mail docs
+2025-07-30 23:42:18,397 - INFO - [Worker] Connected by ('127.0.0.1', 63446)
+2025-07-30 23:42:18,397 - INFO - [Worker] Executing task: mail docs
+2025-07-30 23:42:18,430 - WARNING -  * Debugger is active!
+2025-07-30 23:42:18,438 - INFO -  * Debugger PIN: 308-575-468
+2025-07-30 23:42:19,398 - INFO - [Master] Worker response: done
+2025-07-30 23:42:19,403 - INFO - [Worker] Connected by ('127.0.0.1', 63448)
+2025-07-30 23:42:19,404 - INFO - [Worker] Executing task: book tickets
+2025-07-30 23:42:20,405 - INFO - [Master] Worker response: done
+2025-07-30 23:42:20,461 - INFO - [Reoptimizer] Schedule re-optimized. Time lost: 0.02 hrs. Task: mail docs
+2025-07-30 23:42:20,462 - INFO - [Notification] Schedule re-optimized! Lost 0.0 hours due to delay with 'mail docs'.
+2025-07-30 23:42:22,011 - INFO - Shutting down scheduler...
+2025-07-30 23:42:22,188 - INFO - Shutting down scheduler...
+2025-07-30 23:42:29,857 - INFO - [Recovery] Rescheduling missed task: mail docs
+2025-07-30 23:42:29,870 - INFO - [Worker] Connected by ('127.0.0.1', 63452)
+2025-07-30 23:42:29,870 - INFO - [Worker] Executing task: mail docs
+2025-07-30 23:42:29,954 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-30 23:42:29,954 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 23:42:29,981 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-30 23:42:30,871 - INFO - [Master] Worker response: done
+2025-07-30 23:42:30,873 - INFO - [Worker] Connected by ('127.0.0.1', 63453)
+2025-07-30 23:42:30,873 - INFO - [Worker] Executing task: book tickets
+2025-07-30 23:42:31,443 - INFO - [Recovery] Rescheduling missed task: mail docs
+2025-07-30 23:42:31,457 - INFO - [Worker] Connected by ('127.0.0.1', 63454)
+2025-07-30 23:42:31,457 - INFO - [Worker] Executing task: mail docs
+2025-07-30 23:42:31,486 - WARNING -  * Debugger is active!
+2025-07-30 23:42:31,491 - INFO -  * Debugger PIN: 308-575-468
+2025-07-30 23:42:31,875 - INFO - [Master] Worker response: done
+2025-07-30 23:42:31,930 - INFO - [Reoptimizer] Schedule re-optimized. Time lost: 0.00 hrs. Task: mail docs
+2025-07-30 23:42:31,931 - INFO - [Notification] Schedule re-optimized! Lost 0.0 hours due to delay with 'mail docs'.
+2025-07-30 23:42:32,458 - INFO - [Master] Worker response: done
+2025-07-30 23:42:32,460 - INFO - [Worker] Connected by ('127.0.0.1', 63456)
+2025-07-30 23:42:32,461 - INFO - [Worker] Executing task: book tickets
+2025-07-30 23:42:33,462 - INFO - [Master] Worker response: done
+2025-07-30 23:42:33,523 - INFO - [Reoptimizer] Schedule re-optimized. Time lost: 0.00 hrs. Task: mail docs
+2025-07-30 23:42:33,525 - INFO - [Notification] Schedule re-optimized! Lost 0.0 hours due to delay with 'mail docs'.
+2025-07-30 23:43:59,598 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\scheduler.py', reloading
+2025-07-30 23:43:59,599 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\scheduler.py', reloading
+2025-07-30 23:44:00,232 - INFO - Shutting down scheduler...
+2025-07-30 23:44:00,450 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-30 23:44:01,996 - INFO - [Recovery] Rescheduling missed task: mail docs
+2025-07-30 23:44:02,010 - INFO - [Worker] Connected by ('127.0.0.1', 63486)
+2025-07-30 23:44:02,010 - INFO - [Worker] Executing task: mail docs
+2025-07-30 23:44:02,045 - WARNING -  * Debugger is active!
+2025-07-30 23:44:02,049 - INFO -  * Debugger PIN: 308-575-468
+2025-07-30 23:44:03,011 - INFO - [Master] Worker response: done
+2025-07-30 23:44:03,014 - INFO - [Worker] Connected by ('127.0.0.1', 63487)
+2025-07-30 23:44:03,014 - INFO - [Worker] Executing task: book tickets
+2025-07-30 23:44:03,221 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\logging\\__init__.py', reloading
+2025-07-30 23:44:04,016 - INFO - [Master] Worker response: done
+2025-07-30 23:44:04,078 - INFO - [Reoptimizer] Schedule re-optimized. Time lost: 0.03 hrs. Task: mail docs
+2025-07-30 23:44:04,079 - INFO - [Notification] Schedule re-optimized! Lost 0.0 hours due to delay with 'mail docs'.
+2025-07-30 23:44:04,126 - INFO - Shutting down scheduler...
+2025-07-30 23:44:04,434 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-30 23:44:06,029 - INFO - [Recovery] Rescheduling missed task: mail docs
+2025-07-30 23:44:06,042 - INFO - [Worker] Connected by ('127.0.0.1', 63493)
+2025-07-30 23:44:06,043 - INFO - [Worker] Executing task: mail docs
+2025-07-30 23:44:06,075 - WARNING -  * Debugger is active!
+2025-07-30 23:44:06,080 - INFO -  * Debugger PIN: 308-575-468
+2025-07-30 23:44:07,044 - INFO - [Master] Worker response: done
+2025-07-30 23:44:07,047 - INFO - [Worker] Connected by ('127.0.0.1', 63494)
+2025-07-30 23:44:07,047 - INFO - [Worker] Executing task: book tickets
+2025-07-30 23:44:08,048 - INFO - [Master] Worker response: done
+2025-07-30 23:44:08,105 - INFO - [Reoptimizer] Schedule re-optimized. Time lost: 0.00 hrs. Task: mail docs
+2025-07-30 23:44:08,106 - INFO - [Notification] Schedule re-optimized! Lost 0.0 hours due to delay with 'mail docs'.
+2025-07-30 23:45:13,173 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\scheduler.py', reloading
+2025-07-30 23:45:13,174 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\scheduler.py', reloading
+2025-07-30 23:45:13,203 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\scheduler.py', reloading
+2025-07-30 23:45:13,706 - INFO - Shutting down scheduler...
+2025-07-30 23:45:13,962 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-30 23:45:15,760 - INFO - Shutting down scheduler...
+2025-07-30 23:45:47,838 - INFO - [Worker] Listening on localhost:6000
+2025-07-30 23:48:15,682 - INFO - [Recovery] Rescheduling missed task: mail docs
+2025-07-30 23:48:15,695 - INFO - [Worker] Connected by ('127.0.0.1', 63545)
+2025-07-30 23:48:15,695 - INFO - [Worker] Executing task: mail docs
+2025-07-30 23:48:15,772 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-30 23:48:15,772 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-30 23:48:15,800 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-30 23:48:16,696 - INFO - [Master] Worker response: done
+2025-07-30 23:48:16,700 - INFO - [Worker] Connected by ('127.0.0.1', 63546)
+2025-07-30 23:48:16,700 - INFO - [Worker] Executing task: book tickets
+2025-07-30 23:48:17,187 - INFO - [Recovery] Rescheduling missed task: mail docs
+2025-07-30 23:48:17,200 - INFO - [Worker] Connected by ('127.0.0.1', 63547)
+2025-07-30 23:48:17,200 - INFO - [Worker] Executing task: mail docs
+2025-07-30 23:48:17,242 - WARNING -  * Debugger is active!
+2025-07-30 23:48:17,247 - INFO -  * Debugger PIN: 308-575-468
+2025-07-30 23:48:17,701 - INFO - [Master] Worker response: done
+2025-07-30 23:48:17,754 - INFO - [Reoptimizer] Schedule re-optimized. Time lost: 0.07 hrs. Task: mail docs
+2025-07-30 23:48:17,755 - INFO - [Notification] Schedule re-optimized! Lost 0.1 hours due to delay with 'mail docs'.
+2025-07-30 23:48:18,202 - INFO - [Master] Worker response: done
+2025-07-30 23:48:18,205 - INFO - [Worker] Connected by ('127.0.0.1', 63549)
+2025-07-30 23:48:18,205 - INFO - [Worker] Executing task: book tickets
+2025-07-30 23:48:19,207 - INFO - [Master] Worker response: done
+2025-07-30 23:48:19,230 - INFO - [Reoptimizer] Schedule re-optimized. Time lost: 0.07 hrs. Task: mail docs
+2025-07-30 23:48:19,231 - INFO - [Notification] Schedule re-optimized! Lost 0.1 hours due to delay with 'mail docs'.
+2025-07-30 23:50:42,732 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\services\\notification.py', reloading
+2025-07-30 23:50:42,733 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\services\\notification.py', reloading
+2025-07-30 23:50:42,733 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\services\\notification.py', reloading
+2025-07-30 23:50:43,463 - INFO - Shutting down scheduler...
+2025-07-30 23:50:43,584 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-30 23:50:44,355 - INFO - [Recovery] Rescheduling missed task: mail docs
+2025-07-30 23:50:44,362 - INFO - [Worker] Connected by ('127.0.0.1', 63627)
+2025-07-30 23:50:44,363 - INFO - [Worker] Executing task: mail docs
+2025-07-30 23:50:44,378 - WARNING -  * Debugger is active!
+2025-07-30 23:50:44,381 - INFO -  * Debugger PIN: 308-575-468
+2025-07-30 23:50:45,363 - INFO - [Master] Worker response: done
+2025-07-30 23:50:45,365 - INFO - [Worker] Connected by ('127.0.0.1', 63629)
+2025-07-30 23:50:45,365 - INFO - [Worker] Executing task: book tickets
+2025-07-30 23:50:46,366 - INFO - [Master] Worker response: done
+2025-07-30 23:50:46,377 - INFO - [Reoptimizer] Schedule re-optimized. Time lost: 0.04 hrs. Task: mail docs
+2025-07-30 23:50:46,377 - INFO - [Notification] Schedule re-optimized! Lost 0.0 hours due to delay with 'mail docs'.
+2025-07-30 23:50:46,378 - INFO - [Notification] Schedule Updated: Schedule re-optimized! Lost 0.0 hours due to delay with 'mail docs'.
+2025-07-30 23:52:07,838 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\streamlit\\runtime\\scriptrunner\\exec_code.py', reloading
+2025-07-30 23:52:07,853 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\streamlit\\runtime\\scriptrunner\\script_runner.py', reloading
+2025-07-30 23:52:07,994 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\streamlit\\env_util.py', reloading
+2025-07-30 23:52:07,995 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\streamlit\\delta_generator.py', reloading
+2025-07-30 23:52:07,995 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\streamlit\\elements\\exception.py', reloading
+2025-07-30 23:52:07,996 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\streamlit\\runtime\\metrics_util.py', reloading
+2025-07-30 23:52:07,999 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\streamlit\\error_util.py', reloading
+2025-07-30 23:52:08,835 - INFO - Shutting down scheduler...
+2025-07-30 23:52:08,941 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-30 23:52:09,604 - INFO - [Recovery] Rescheduling missed task: mail docs
+2025-07-30 23:52:09,612 - INFO - [Worker] Connected by ('127.0.0.1', 63679)
+2025-07-30 23:52:09,612 - INFO - [Worker] Executing task: mail docs
+2025-07-30 23:52:09,623 - WARNING -  * Debugger is active!
+2025-07-30 23:52:09,626 - INFO -  * Debugger PIN: 308-575-468
+2025-07-30 23:52:10,613 - INFO - [Master] Worker response: done
+2025-07-30 23:52:10,615 - INFO - [Worker] Connected by ('127.0.0.1', 63681)
+2025-07-30 23:52:10,615 - INFO - [Worker] Executing task: book tickets
+2025-07-30 23:52:11,616 - INFO - [Master] Worker response: done
+2025-07-30 23:52:11,633 - INFO - [Reoptimizer] Schedule re-optimized. Time lost: 0.02 hrs. Task: mail docs
+2025-07-30 23:52:11,634 - INFO - [Notification] Schedule re-optimized! Lost 0.0 hours due to delay with 'mail docs'.
+2025-07-30 23:52:11,635 - INFO - [Notification] Schedule Updated: Schedule re-optimized! Lost 0.0 hours due to delay with 'mail docs'.
+2025-07-30 23:52:42,223 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\streamlit_autorefresh\\__init__.py', reloading
+2025-07-30 23:52:42,223 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\streamlit_autorefresh\\__init__.py', reloading
+2025-07-30 23:52:42,224 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\streamlit_autorefresh\\__init__.py', reloading
+2025-07-30 23:52:42,871 - INFO - Shutting down scheduler...
+2025-07-30 23:52:42,968 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-30 23:52:43,658 - INFO - [Recovery] Rescheduling missed task: mail docs
+2025-07-30 23:52:43,666 - INFO - [Worker] Connected by ('127.0.0.1', 63703)
+2025-07-30 23:52:43,666 - INFO - [Worker] Executing task: mail docs
+2025-07-30 23:52:43,677 - WARNING -  * Debugger is active!
+2025-07-30 23:52:43,681 - INFO -  * Debugger PIN: 308-575-468
+2025-07-30 23:52:44,668 - INFO - [Master] Worker response: done
+2025-07-30 23:52:44,670 - INFO - [Worker] Connected by ('127.0.0.1', 63710)
+2025-07-30 23:52:44,670 - INFO - [Worker] Executing task: book tickets
+2025-07-30 23:52:45,671 - INFO - [Master] Worker response: done
+2025-07-30 23:52:45,692 - INFO - [Reoptimizer] Schedule re-optimized. Time lost: 0.01 hrs. Task: mail docs
+2025-07-30 23:52:45,693 - INFO - [Notification] Schedule re-optimized! Lost 0.0 hours due to delay with 'mail docs'.
+2025-07-30 23:52:45,693 - INFO - [Notification] Schedule Updated: Schedule re-optimized! Lost 0.0 hours due to delay with 'mail docs'.
+2025-07-30 23:52:48,011 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\flask_sqlalchemy\\__init__.py', reloading
+2025-07-30 23:52:48,015 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\flask_sqlalchemy\\extension.py', reloading
+2025-07-30 23:52:48,121 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\sqlalchemy\\__init__.py', reloading
+2025-07-30 23:52:48,125 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\sqlalchemy\\schema.py', reloading
+2025-07-30 23:52:48,128 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\sqlalchemy\\sql\\schema.py', reloading
+2025-07-30 23:52:48,194 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\sqlalchemy\\sql\\base.py', reloading
+2025-07-30 23:52:48,214 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\sqlalchemy\\event\\__init__.py', reloading
+2025-07-30 23:52:48,215 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\sqlalchemy\\util\\__init__.py', reloading
+2025-07-30 23:52:48,229 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\sqlalchemy\\util\\_collections.py', reloading
+2025-07-30 23:52:48,253 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\sqlalchemy\\util\\_py_collections.py', reloading
+2025-07-30 23:52:48,272 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\sqlalchemy\\util\\typing.py', reloading
+2025-07-30 23:52:48,280 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\sqlalchemy\\event\\registry.py', reloading
+2025-07-30 23:52:48,284 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\sqlalchemy\\sql\\__init__.py', reloading
+2025-07-30 23:52:48,287 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\sqlalchemy\\sql\\visitors.py', reloading
+2025-07-30 23:52:48,297 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\sqlalchemy\\inspection.py', reloading
+2025-07-30 23:52:48,301 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\flask_sqlalchemy\\query.py', reloading
+2025-07-30 23:52:48,303 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\__init__.py', reloading
+2025-07-30 23:52:48,307 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\query.py', reloading
+2025-07-30 23:52:48,339 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\sqlalchemy\\sql\\selectable.py', reloading
+2025-07-30 23:52:48,376 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\sqlalchemy\\sql\\annotation.py', reloading
+2025-07-30 23:52:48,382 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\sqlalchemy\\log.py', reloading
+2025-07-30 23:52:48,388 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\sqlalchemy\\util\\langhelpers.py', reloading
+2025-07-30 23:52:48,409 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\sqlalchemy\\sql\\roles.py', reloading
+2025-07-30 23:52:48,416 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\flask_sqlalchemy\\model.py', reloading
+2025-07-30 23:52:48,419 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\decl_api.py', reloading
+2025-07-30 23:52:48,435 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\mapper.py', reloading
+2025-07-30 23:52:48,456 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\interfaces.py', reloading
+2025-07-30 23:52:48,489 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\_typing.py', reloading
+2025-07-30 23:52:48,494 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\sqlalchemy\\sql\\cache_key.py', reloading
+2025-07-30 23:52:48,511 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\base.py', reloading
+2025-07-30 23:52:48,523 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\state.py', reloading
+2025-07-30 23:52:48,546 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\scoping.py', reloading
+2025-07-30 23:52:48,554 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\session.py', reloading
+2025-07-30 23:52:48,585 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\flask_sqlalchemy\\session.py', reloading
+2025-07-30 23:52:48,587 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\flask_sqlalchemy\\table.py', reloading
+2025-07-30 23:52:48,591 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\sqlalchemy\\sql\\elements.py', reloading
+2025-07-30 23:52:48,621 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\sqlalchemy\\sql\\traversals.py', reloading
+2025-07-30 23:52:48,654 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\sqlalchemy\\orm\\relationships.py', reloading
+2025-07-30 23:52:48,725 - INFO - Shutting down scheduler...
+2025-07-30 23:52:48,928 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-30 23:52:49,748 - INFO - [Recovery] Rescheduling missed task: mail docs
+2025-07-30 23:52:49,756 - INFO - [Worker] Connected by ('127.0.0.1', 63717)
+2025-07-30 23:52:49,756 - INFO - [Worker] Executing task: mail docs
+2025-07-30 23:52:49,774 - WARNING -  * Debugger is active!
+2025-07-30 23:52:49,778 - INFO -  * Debugger PIN: 308-575-468
+2025-07-30 23:52:50,757 - INFO - [Master] Worker response: done
+2025-07-30 23:52:50,759 - INFO - [Worker] Connected by ('127.0.0.1', 63720)
+2025-07-30 23:52:50,759 - INFO - [Worker] Executing task: book tickets
+2025-07-30 23:52:51,760 - INFO - [Master] Worker response: done
+2025-07-30 23:52:51,775 - INFO - [Reoptimizer] Schedule re-optimized. Time lost: 0.00 hrs. Task: mail docs
+2025-07-30 23:52:51,776 - INFO - [Notification] Schedule re-optimized! Lost 0.0 hours due to delay with 'mail docs'.
+2025-07-30 23:52:51,777 - INFO - [Notification] Schedule Updated: Schedule re-optimized! Lost 0.0 hours due to delay with 'mail docs'.
+2025-07-30 23:53:02,933 - INFO - 127.0.0.1 - - [30/Jul/2025 23:53:02] "GET /schedule HTTP/1.1" 200 -
+2025-07-30 23:53:17,760 - INFO - [Recovery] Rescheduling missed task: mail docs
+2025-07-30 23:53:17,763 - INFO - [Worker] Connected by ('127.0.0.1', 63747)
+2025-07-30 23:53:17,763 - INFO - [Worker] Executing task: mail docs
+2025-07-30 23:53:18,763 - INFO - [Master] Worker response: done
+2025-07-30 23:53:18,765 - INFO - [Worker] Connected by ('127.0.0.1', 63748)
+2025-07-30 23:53:18,765 - INFO - [Worker] Executing task: book tickets
+2025-07-30 23:53:19,766 - INFO - [Master] Worker response: done
+2025-07-30 23:53:19,782 - INFO - [Reoptimizer] Schedule re-optimized. Time lost: 0.01 hrs. Task: mail docs
+2025-07-30 23:53:19,783 - INFO - [Notification] Schedule re-optimized! Lost 0.0 hours due to delay with 'mail docs'.
+2025-07-30 23:54:03,760 - INFO - 127.0.0.1 - - [30/Jul/2025 23:54:03] "GET /schedule HTTP/1.1" 200 -
+2025-07-30 23:55:03,779 - INFO - 127.0.0.1 - - [30/Jul/2025 23:55:03] "GET /schedule HTTP/1.1" 200 -
+2025-07-30 23:59:06,998 - INFO - [Worker] Listening on localhost:6000
+2025-07-31 00:00:00,240 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-31 00:00:00,240 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 00:00:00,250 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-31 00:00:00,984 - WARNING -  * Debugger is active!
+2025-07-31 00:00:00,987 - INFO -  * Debugger PIN: 308-575-468
+2025-07-31 00:00:36,656 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-31 00:00:36,656 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 00:00:36,667 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-31 00:00:37,145 - WARNING -  * Debugger is active!
+2025-07-31 00:00:37,147 - INFO -  * Debugger PIN: 308-575-468
+2025-07-31 00:01:20,386 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\app.py', reloading
+2025-07-31 00:01:20,387 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\app.py', reloading
+2025-07-31 00:01:20,595 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-31 00:01:21,143 - WARNING -  * Debugger is active!
+2025-07-31 00:01:21,145 - INFO -  * Debugger PIN: 308-575-468
+2025-07-31 00:01:30,898 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-31 00:01:30,898 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 00:01:30,907 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-31 00:01:31,392 - WARNING -  * Debugger is active!
+2025-07-31 00:01:31,394 - INFO -  * Debugger PIN: 308-575-468
+2025-07-31 00:01:58,109 - INFO - 127.0.0.1 - - [31/Jul/2025 00:01:58] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:02:21,204 - INFO - [Worker] Connected by ('127.0.0.1', 63930)
+2025-07-31 00:02:21,205 - INFO - [Worker] Executing task: mail docs
+2025-07-31 00:02:22,206 - INFO - [Master] Worker response: done
+2025-07-31 00:02:22,222 - INFO - 127.0.0.1 - - [31/Jul/2025 00:02:22] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2025-07-31 00:02:24,302 - INFO - 127.0.0.1 - - [31/Jul/2025 00:02:24] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:02:58,120 - INFO - [Worker] Connected by ('127.0.0.1', 63939)
+2025-07-31 00:02:58,121 - INFO - [Worker] Executing task: mail docs
+2025-07-31 00:02:58,290 - INFO - 127.0.0.1 - - [31/Jul/2025 00:02:58] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:02:59,122 - INFO - [Master] Worker response: done
+2025-07-31 00:02:59,128 - INFO - [Worker] Connected by ('127.0.0.1', 63941)
+2025-07-31 00:02:59,128 - INFO - [Worker] Executing task: client meeting
+2025-07-31 00:03:01,129 - INFO - [Master] Worker response: done
+2025-07-31 00:03:01,144 - INFO - 127.0.0.1 - - [31/Jul/2025 00:03:01] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2025-07-31 00:03:14,555 - INFO - [Worker] Connected by ('127.0.0.1', 63944)
+2025-07-31 00:03:14,556 - INFO - [Worker] Executing task: mail docs
+2025-07-31 00:03:15,557 - INFO - [Master] Worker response: done
+2025-07-31 00:03:15,559 - INFO - [Worker] Connected by ('127.0.0.1', 63945)
+2025-07-31 00:03:15,559 - INFO - [Worker] Executing task: client meeting
+2025-07-31 00:03:17,562 - INFO - [Master] Worker response: done
+2025-07-31 00:03:17,567 - INFO - [Worker] Connected by ('127.0.0.1', 63946)
+2025-07-31 00:03:17,567 - INFO - [Worker] Executing task: client meeting
+2025-07-31 00:03:19,568 - INFO - [Master] Worker response: done
+2025-07-31 00:03:19,579 - INFO - 127.0.0.1 - - [31/Jul/2025 00:03:19] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2025-07-31 00:03:21,638 - INFO - 127.0.0.1 - - [31/Jul/2025 00:03:21] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:03:50,603 - INFO - [Manual Replan] No overdue tasks to reoptimize.
+2025-07-31 00:03:50,604 - INFO - 127.0.0.1 - - [31/Jul/2025 00:03:50] "POST /replan HTTP/1.1" 200 -
+2025-07-31 00:03:52,652 - INFO - 127.0.0.1 - - [31/Jul/2025 00:03:52] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:04:04,637 - INFO - 127.0.0.1 - - [31/Jul/2025 00:04:04] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:04:06,695 - INFO - [Manual] Marked schedule 1 as complete
+2025-07-31 00:04:06,695 - INFO - 127.0.0.1 - - [31/Jul/2025 00:04:06] "PATCH /schedule/1 HTTP/1.1" 200 -
+2025-07-31 00:04:08,821 - INFO - 127.0.0.1 - - [31/Jul/2025 00:04:08] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:04:10,866 - INFO - [Manual] Marked schedule 1 as complete
+2025-07-31 00:04:10,866 - INFO - 127.0.0.1 - - [31/Jul/2025 00:04:10] "PATCH /schedule/1 HTTP/1.1" 200 -
+2025-07-31 00:04:13,002 - INFO - 127.0.0.1 - - [31/Jul/2025 00:04:13] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:04:15,049 - INFO - [Manual] Marked schedule 1 as complete
+2025-07-31 00:04:15,050 - INFO - 127.0.0.1 - - [31/Jul/2025 00:04:15] "PATCH /schedule/1 HTTP/1.1" 200 -
+2025-07-31 00:04:17,169 - INFO - 127.0.0.1 - - [31/Jul/2025 00:04:17] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:04:19,215 - INFO - [Manual] Marked schedule 1 as complete
+2025-07-31 00:04:19,216 - INFO - 127.0.0.1 - - [31/Jul/2025 00:04:19] "PATCH /schedule/1 HTTP/1.1" 200 -
+2025-07-31 00:04:21,321 - INFO - 127.0.0.1 - - [31/Jul/2025 00:04:21] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:04:23,368 - INFO - [Manual] Marked schedule 1 as complete
+2025-07-31 00:04:23,369 - INFO - 127.0.0.1 - - [31/Jul/2025 00:04:23] "PATCH /schedule/1 HTTP/1.1" 200 -
+2025-07-31 00:04:23,768 - INFO - 127.0.0.1 - - [31/Jul/2025 00:04:23] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:04:25,804 - INFO - [Manual] Marked schedule 1 as complete
+2025-07-31 00:04:25,804 - INFO - 127.0.0.1 - - [31/Jul/2025 00:04:25] "PATCH /schedule/1 HTTP/1.1" 200 -
+2025-07-31 00:04:27,936 - INFO - 127.0.0.1 - - [31/Jul/2025 00:04:27] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:04:29,979 - INFO - [Manual] Marked schedule 1 as complete
+2025-07-31 00:04:29,980 - INFO - 127.0.0.1 - - [31/Jul/2025 00:04:29] "PATCH /schedule/1 HTTP/1.1" 200 -
+2025-07-31 00:04:32,050 - INFO - 127.0.0.1 - - [31/Jul/2025 00:04:32] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:04:34,101 - INFO - [Manual] Marked schedule 1 as complete
+2025-07-31 00:04:34,102 - INFO - 127.0.0.1 - - [31/Jul/2025 00:04:34] "PATCH /schedule/1 HTTP/1.1" 200 -
+2025-07-31 00:04:36,170 - INFO - 127.0.0.1 - - [31/Jul/2025 00:04:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:04:38,206 - INFO - [Manual] Marked schedule 1 as complete
+2025-07-31 00:04:38,207 - INFO - 127.0.0.1 - - [31/Jul/2025 00:04:38] "PATCH /schedule/1 HTTP/1.1" 200 -
+2025-07-31 00:04:40,287 - INFO - 127.0.0.1 - - [31/Jul/2025 00:04:40] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:04:42,318 - INFO - [Manual] Marked schedule 1 as complete
+2025-07-31 00:04:42,318 - INFO - 127.0.0.1 - - [31/Jul/2025 00:04:42] "PATCH /schedule/1 HTTP/1.1" 200 -
+2025-07-31 00:04:44,388 - INFO - 127.0.0.1 - - [31/Jul/2025 00:04:44] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:04:46,421 - INFO - [Manual] Marked schedule 1 as complete
+2025-07-31 00:04:46,422 - INFO - 127.0.0.1 - - [31/Jul/2025 00:04:46] "PATCH /schedule/1 HTTP/1.1" 200 -
+2025-07-31 00:04:48,536 - INFO - 127.0.0.1 - - [31/Jul/2025 00:04:48] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:04:50,567 - INFO - [Manual] Marked schedule 1 as complete
+2025-07-31 00:04:50,568 - INFO - 127.0.0.1 - - [31/Jul/2025 00:04:50] "PATCH /schedule/1 HTTP/1.1" 200 -
+2025-07-31 00:04:52,686 - INFO - 127.0.0.1 - - [31/Jul/2025 00:04:52] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:04:54,721 - INFO - [Manual] Marked schedule 1 as complete
+2025-07-31 00:04:54,722 - INFO - 127.0.0.1 - - [31/Jul/2025 00:04:54] "PATCH /schedule/1 HTTP/1.1" 200 -
+2025-07-31 00:04:56,837 - INFO - 127.0.0.1 - - [31/Jul/2025 00:04:56] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:04:58,870 - INFO - [Manual] Marked schedule 1 as complete
+2025-07-31 00:04:58,871 - INFO - 127.0.0.1 - - [31/Jul/2025 00:04:58] "PATCH /schedule/1 HTTP/1.1" 200 -
+2025-07-31 00:05:00,967 - INFO - 127.0.0.1 - - [31/Jul/2025 00:05:00] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:05:03,014 - INFO - [Manual] Marked schedule 1 as complete
+2025-07-31 00:05:03,015 - INFO - 127.0.0.1 - - [31/Jul/2025 00:05:03] "PATCH /schedule/1 HTTP/1.1" 200 -
+2025-07-31 00:05:05,120 - INFO - 127.0.0.1 - - [31/Jul/2025 00:05:05] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:05:07,165 - INFO - [Manual] Marked schedule 1 as complete
+2025-07-31 00:05:07,166 - INFO - 127.0.0.1 - - [31/Jul/2025 00:05:07] "PATCH /schedule/1 HTTP/1.1" 200 -
+2025-07-31 00:05:09,272 - INFO - 127.0.0.1 - - [31/Jul/2025 00:05:09] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:05:11,332 - INFO - [Manual] Marked schedule 1 as complete
+2025-07-31 00:05:11,333 - INFO - 127.0.0.1 - - [31/Jul/2025 00:05:11] "PATCH /schedule/1 HTTP/1.1" 200 -
+2025-07-31 00:05:13,455 - INFO - 127.0.0.1 - - [31/Jul/2025 00:05:13] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:05:15,503 - INFO - [Manual] Marked schedule 1 as complete
+2025-07-31 00:05:15,504 - INFO - 127.0.0.1 - - [31/Jul/2025 00:05:15] "PATCH /schedule/1 HTTP/1.1" 200 -
+2025-07-31 00:05:17,619 - INFO - 127.0.0.1 - - [31/Jul/2025 00:05:17] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:05:19,652 - INFO - [Manual] Marked schedule 1 as complete
+2025-07-31 00:05:19,652 - INFO - 127.0.0.1 - - [31/Jul/2025 00:05:19] "PATCH /schedule/1 HTTP/1.1" 200 -
+2025-07-31 00:05:21,772 - INFO - 127.0.0.1 - - [31/Jul/2025 00:05:21] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:05:23,755 - INFO - 127.0.0.1 - - [31/Jul/2025 00:05:23] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:05:25,781 - INFO - [Manual] Marked schedule 1 as complete
+2025-07-31 00:05:25,781 - INFO - 127.0.0.1 - - [31/Jul/2025 00:05:25] "PATCH /schedule/1 HTTP/1.1" 200 -
+2025-07-31 00:05:27,904 - INFO - 127.0.0.1 - - [31/Jul/2025 00:05:27] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:05:29,935 - INFO - [Manual] Marked schedule 1 as complete
+2025-07-31 00:05:29,936 - INFO - 127.0.0.1 - - [31/Jul/2025 00:05:29] "PATCH /schedule/1 HTTP/1.1" 200 -
+2025-07-31 00:05:32,054 - INFO - 127.0.0.1 - - [31/Jul/2025 00:05:32] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:05:34,095 - INFO - [Manual] Marked schedule 1 as complete
+2025-07-31 00:05:34,096 - INFO - 127.0.0.1 - - [31/Jul/2025 00:05:34] "PATCH /schedule/1 HTTP/1.1" 200 -
+2025-07-31 00:05:36,219 - INFO - 127.0.0.1 - - [31/Jul/2025 00:05:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:05:38,249 - INFO - [Manual] Marked schedule 1 as complete
+2025-07-31 00:05:38,250 - INFO - 127.0.0.1 - - [31/Jul/2025 00:05:38] "PATCH /schedule/1 HTTP/1.1" 200 -
+2025-07-31 00:05:40,373 - INFO - 127.0.0.1 - - [31/Jul/2025 00:05:40] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:05:42,415 - INFO - [Manual] Marked schedule 1 as complete
+2025-07-31 00:05:42,416 - INFO - 127.0.0.1 - - [31/Jul/2025 00:05:42] "PATCH /schedule/1 HTTP/1.1" 200 -
+2025-07-31 00:05:44,522 - INFO - 127.0.0.1 - - [31/Jul/2025 00:05:44] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:05:46,566 - INFO - [Manual] Marked schedule 1 as complete
+2025-07-31 00:05:46,566 - INFO - 127.0.0.1 - - [31/Jul/2025 00:05:46] "PATCH /schedule/1 HTTP/1.1" 200 -
+2025-07-31 00:05:48,671 - INFO - 127.0.0.1 - - [31/Jul/2025 00:05:48] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:05:50,714 - INFO - [Manual] Marked schedule 1 as complete
+2025-07-31 00:05:50,715 - INFO - 127.0.0.1 - - [31/Jul/2025 00:05:50] "PATCH /schedule/1 HTTP/1.1" 200 -
+2025-07-31 00:05:52,818 - INFO - 127.0.0.1 - - [31/Jul/2025 00:05:52] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:05:54,853 - INFO - [Manual] Marked schedule 1 as complete
+2025-07-31 00:05:54,854 - INFO - 127.0.0.1 - - [31/Jul/2025 00:05:54] "PATCH /schedule/1 HTTP/1.1" 200 -
+2025-07-31 00:05:56,972 - INFO - 127.0.0.1 - - [31/Jul/2025 00:05:56] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:05:59,011 - INFO - [Manual] Marked schedule 1 as complete
+2025-07-31 00:05:59,012 - INFO - 127.0.0.1 - - [31/Jul/2025 00:05:59] "PATCH /schedule/1 HTTP/1.1" 200 -
+2025-07-31 00:06:01,125 - INFO - 127.0.0.1 - - [31/Jul/2025 00:06:01] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:06:03,167 - INFO - [Manual] Marked schedule 1 as complete
+2025-07-31 00:06:03,168 - INFO - 127.0.0.1 - - [31/Jul/2025 00:06:03] "PATCH /schedule/1 HTTP/1.1" 200 -
+2025-07-31 00:06:05,284 - INFO - 127.0.0.1 - - [31/Jul/2025 00:06:05] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:06:07,302 - INFO - [Manual] Marked schedule 1 as complete
+2025-07-31 00:06:07,303 - INFO - 127.0.0.1 - - [31/Jul/2025 00:06:07] "PATCH /schedule/1 HTTP/1.1" 200 -
+2025-07-31 00:06:09,433 - INFO - 127.0.0.1 - - [31/Jul/2025 00:06:09] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:06:11,468 - INFO - [Manual] Marked schedule 1 as complete
+2025-07-31 00:06:11,468 - INFO - 127.0.0.1 - - [31/Jul/2025 00:06:11] "PATCH /schedule/1 HTTP/1.1" 200 -
+2025-07-31 00:06:13,580 - INFO - 127.0.0.1 - - [31/Jul/2025 00:06:13] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:06:15,631 - INFO - [Manual] Marked schedule 1 as complete
+2025-07-31 00:06:15,632 - INFO - 127.0.0.1 - - [31/Jul/2025 00:06:15] "PATCH /schedule/1 HTTP/1.1" 200 -
+2025-07-31 00:06:17,770 - INFO - 127.0.0.1 - - [31/Jul/2025 00:06:17] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:06:19,800 - INFO - [Manual] Marked schedule 1 as complete
+2025-07-31 00:06:19,801 - INFO - 127.0.0.1 - - [31/Jul/2025 00:06:19] "PATCH /schedule/1 HTTP/1.1" 200 -
+2025-07-31 00:06:21,897 - INFO - 127.0.0.1 - - [31/Jul/2025 00:06:21] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:06:23,769 - INFO - 127.0.0.1 - - [31/Jul/2025 00:06:23] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:06:28,832 - INFO - 127.0.0.1 - - [31/Jul/2025 00:06:28] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:06:42,083 - INFO - 127.0.0.1 - - [31/Jul/2025 00:06:42] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:06:44,129 - INFO - [Manual] Marked schedule 2 as complete
+2025-07-31 00:06:44,130 - INFO - 127.0.0.1 - - [31/Jul/2025 00:06:44] "PATCH /schedule/2 HTTP/1.1" 200 -
+2025-07-31 00:06:46,267 - INFO - 127.0.0.1 - - [31/Jul/2025 00:06:46] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:06:51,323 - INFO - 127.0.0.1 - - [31/Jul/2025 00:06:51] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:06:53,388 - INFO - [Manual] Marked schedule 3 as complete
+2025-07-31 00:06:53,389 - INFO - 127.0.0.1 - - [31/Jul/2025 00:06:53] "PATCH /schedule/3 HTTP/1.1" 200 -
+2025-07-31 00:06:55,502 - INFO - 127.0.0.1 - - [31/Jul/2025 00:06:55] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:07:04,547 - INFO - [Manual Replan] No overdue tasks to reoptimize.
+2025-07-31 00:07:04,548 - INFO - 127.0.0.1 - - [31/Jul/2025 00:07:04] "POST /replan HTTP/1.1" 200 -
+2025-07-31 00:07:06,583 - INFO - 127.0.0.1 - - [31/Jul/2025 00:07:06] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:07:31,189 - INFO - 127.0.0.1 - - [31/Jul/2025 00:07:31] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:08:31,185 - INFO - 127.0.0.1 - - [31/Jul/2025 00:08:31] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:09:31,185 - INFO - 127.0.0.1 - - [31/Jul/2025 00:09:31] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:10:31,199 - INFO - 127.0.0.1 - - [31/Jul/2025 00:10:31] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:11:31,179 - INFO - 127.0.0.1 - - [31/Jul/2025 00:11:31] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:12:31,178 - INFO - 127.0.0.1 - - [31/Jul/2025 00:12:31] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:13:31,176 - INFO - 127.0.0.1 - - [31/Jul/2025 00:13:31] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:14:31,196 - INFO - 127.0.0.1 - - [31/Jul/2025 00:14:31] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:15:31,196 - INFO - 127.0.0.1 - - [31/Jul/2025 00:15:31] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:16:31,194 - INFO - 127.0.0.1 - - [31/Jul/2025 00:16:31] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:16:35,237 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\models.py', reloading
+2025-07-31 00:16:35,238 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\models.py', reloading
+2025-07-31 00:16:35,607 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-31 00:16:36,267 - WARNING -  * Debugger is active!
+2025-07-31 00:16:36,271 - INFO -  * Debugger PIN: 308-575-468
+2025-07-31 00:19:39,631 - INFO - [Worker] Listening on localhost:6000
+2025-07-31 00:19:53,611 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-31 00:19:53,611 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 00:19:53,622 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-31 00:19:54,134 - WARNING -  * Debugger is active!
+2025-07-31 00:19:54,136 - INFO -  * Debugger PIN: 308-575-468
+2025-07-31 00:20:26,786 - INFO - 127.0.0.1 - - [31/Jul/2025 00:20:26] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:20:35,360 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\app.py', reloading
+2025-07-31 00:20:35,362 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\app.py', reloading
+2025-07-31 00:20:35,512 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-31 00:20:36,179 - WARNING -  * Debugger is active!
+2025-07-31 00:20:36,183 - INFO -  * Debugger PIN: 308-575-468
+2025-07-31 00:20:52,818 - INFO - 127.0.0.1 - - [31/Jul/2025 00:20:52] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:21:06,336 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\flask_cors\\extension.py', reloading
+2025-07-31 00:21:06,345 - INFO - 127.0.0.1 - - [31/Jul/2025 00:21:06] "[35m[1mPOST /tasks HTTP/1.1[0m" 500 -
+2025-07-31 00:21:06,657 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-31 00:21:07,196 - WARNING -  * Debugger is active!
+2025-07-31 00:21:07,198 - INFO -  * Debugger PIN: 308-575-468
+2025-07-31 00:21:08,398 - INFO - 127.0.0.1 - - [31/Jul/2025 00:21:08] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:21:53,773 - INFO - 127.0.0.1 - - [31/Jul/2025 00:21:53] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:21:58,854 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\models.py', reloading
+2025-07-31 00:21:58,857 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\models.py', reloading
+2025-07-31 00:21:59,638 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-31 00:22:00,281 - WARNING -  * Debugger is active!
+2025-07-31 00:22:00,283 - INFO -  * Debugger PIN: 308-575-468
+2025-07-31 00:22:08,137 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\app.py', reloading
+2025-07-31 00:22:08,138 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\app.py', reloading
+2025-07-31 00:22:08,141 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\app.py', reloading
+2025-07-31 00:22:08,428 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-31 00:22:09,004 - WARNING -  * Debugger is active!
+2025-07-31 00:22:09,006 - INFO -  * Debugger PIN: 308-575-468
+2025-07-31 00:22:53,784 - INFO - 127.0.0.1 - - [31/Jul/2025 00:22:53] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:23:53,765 - INFO - 127.0.0.1 - - [31/Jul/2025 00:23:53] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:24:21,907 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\scheduler.py', reloading
+2025-07-31 00:24:21,908 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\scheduler.py', reloading
+2025-07-31 00:24:22,040 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-31 00:24:22,709 - WARNING -  * Debugger is active!
+2025-07-31 00:24:22,712 - INFO -  * Debugger PIN: 308-575-468
+2025-07-31 00:24:30,951 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-31 00:24:30,951 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 00:24:30,960 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-31 00:24:31,456 - WARNING -  * Debugger is active!
+2025-07-31 00:24:31,458 - INFO -  * Debugger PIN: 308-575-468
+2025-07-31 00:24:44,115 - INFO - 127.0.0.1 - - [31/Jul/2025 00:24:44] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:24:55,535 - INFO - 127.0.0.1 - - [31/Jul/2025 00:24:55] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2025-07-31 00:24:57,595 - INFO - 127.0.0.1 - - [31/Jul/2025 00:24:57] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:25:15,381 - INFO - 127.0.0.1 - - [31/Jul/2025 00:25:15] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:25:17,448 - INFO - 127.0.0.1 - - [31/Jul/2025 00:25:17] "PATCH /schedule/1/start HTTP/1.1" 200 -
+2025-07-31 00:25:19,581 - INFO - 127.0.0.1 - - [31/Jul/2025 00:25:19] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:25:35,247 - INFO - 127.0.0.1 - - [31/Jul/2025 00:25:35] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:25:37,311 - INFO - 127.0.0.1 - - [31/Jul/2025 00:25:37] "PATCH /schedule/1/complete HTTP/1.1" 200 -
+2025-07-31 00:25:39,429 - INFO - 127.0.0.1 - - [31/Jul/2025 00:25:39] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:25:59,554 - INFO - 127.0.0.1 - - [31/Jul/2025 00:25:59] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:26:01,632 - INFO - 127.0.0.1 - - [31/Jul/2025 00:26:01] "PATCH /schedule/2/start HTTP/1.1" 200 -
+2025-07-31 00:26:03,746 - INFO - 127.0.0.1 - - [31/Jul/2025 00:26:03] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:26:43,879 - INFO - 127.0.0.1 - - [31/Jul/2025 00:26:43] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:27:55,781 - INFO - 127.0.0.1 - - [31/Jul/2025 00:27:55] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:28:43,400 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\app.py', reloading
+2025-07-31 00:28:43,402 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\app.py', reloading
+2025-07-31 00:28:43,718 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-31 00:28:44,322 - WARNING -  * Debugger is active!
+2025-07-31 00:28:44,325 - INFO -  * Debugger PIN: 308-575-468
+2025-07-31 00:29:27,649 - INFO - [Worker] Listening on localhost:6000
+2025-07-31 00:29:42,182 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-31 00:29:42,182 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 00:29:42,193 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-31 00:29:42,691 - WARNING -  * Debugger is active!
+2025-07-31 00:29:42,693 - INFO -  * Debugger PIN: 308-575-468
+2025-07-31 00:29:55,156 - INFO - 127.0.0.1 - - [31/Jul/2025 00:29:55] "[33mGET /schedule HTTP/1.1[0m" 404 -
+2025-07-31 00:30:55,772 - INFO - 127.0.0.1 - - [31/Jul/2025 00:30:55] "[33mGET /schedule HTTP/1.1[0m" 404 -
+2025-07-31 00:31:55,794 - INFO - 127.0.0.1 - - [31/Jul/2025 00:31:55] "[33mGET /schedule HTTP/1.1[0m" 404 -
+2025-07-31 00:32:31,431 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\worker.py', reloading
+2025-07-31 00:32:32,033 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-31 00:32:32,708 - WARNING -  * Debugger is active!
+2025-07-31 00:32:32,710 - INFO -  * Debugger PIN: 308-575-468
+2025-07-31 00:32:54,822 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\app.py', reloading
+2025-07-31 00:32:54,826 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\app.py', reloading
+2025-07-31 00:32:54,967 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-31 00:32:55,547 - WARNING -  * Debugger is active!
+2025-07-31 00:32:55,549 - INFO -  * Debugger PIN: 308-575-468
+2025-07-31 00:32:55,788 - INFO - 127.0.0.1 - - [31/Jul/2025 00:32:55] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:33:55,800 - INFO - 127.0.0.1 - - [31/Jul/2025 00:33:55] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:34:38,724 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\app.py', reloading
+2025-07-31 00:34:38,725 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\app.py', reloading
+2025-07-31 00:34:38,728 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\app.py', reloading
+2025-07-31 00:34:39,350 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-31 00:34:40,151 - WARNING -  * Debugger is active!
+2025-07-31 00:34:40,154 - INFO -  * Debugger PIN: 308-575-468
+2025-07-31 00:34:55,785 - INFO - 127.0.0.1 - - [31/Jul/2025 00:34:55] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:35:55,787 - INFO - 127.0.0.1 - - [31/Jul/2025 00:35:55] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:36:04,341 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\app.py', reloading
+2025-07-31 00:36:04,342 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\app.py', reloading
+2025-07-31 00:36:04,344 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\app.py', reloading
+2025-07-31 00:36:04,726 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-31 00:36:05,326 - WARNING -  * Debugger is active!
+2025-07-31 00:36:05,327 - INFO -  * Debugger PIN: 308-575-468
+2025-07-31 00:36:18,370 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-31 00:36:18,371 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 00:36:18,378 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-31 00:36:18,902 - WARNING -  * Debugger is active!
+2025-07-31 00:36:18,904 - INFO -  * Debugger PIN: 308-575-468
+2025-07-31 00:36:26,370 - INFO - 127.0.0.1 - - [31/Jul/2025 00:36:26] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:36:46,301 - INFO - 127.0.0.1 - - [31/Jul/2025 00:36:46] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2025-07-31 00:36:48,366 - INFO - 127.0.0.1 - - [31/Jul/2025 00:36:48] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:36:56,550 - INFO - 127.0.0.1 - - [31/Jul/2025 00:36:56] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:36:58,622 - INFO - 127.0.0.1 - - [31/Jul/2025 00:36:58] "PATCH /schedule/1/start HTTP/1.1" 200 -
+2025-07-31 00:37:00,738 - INFO - 127.0.0.1 - - [31/Jul/2025 00:37:00] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:38:19,767 - INFO - 127.0.0.1 - - [31/Jul/2025 00:38:19] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:39:19,802 - INFO - 127.0.0.1 - - [31/Jul/2025 00:39:19] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:40:19,768 - INFO - 127.0.0.1 - - [31/Jul/2025 00:40:19] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:41:19,791 - INFO - 127.0.0.1 - - [31/Jul/2025 00:41:19] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:42:19,765 - INFO - 127.0.0.1 - - [31/Jul/2025 00:42:19] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:43:48,247 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\app.py', reloading
+2025-07-31 00:43:48,248 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\app.py', reloading
+2025-07-31 00:43:48,250 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\app.py', reloading
+2025-07-31 00:43:49,194 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-31 00:43:50,999 - WARNING -  * Debugger is active!
+2025-07-31 00:43:51,002 - INFO -  * Debugger PIN: 308-575-468
+2025-07-31 00:43:59,065 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-31 00:43:59,065 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 00:43:59,077 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-31 00:43:59,600 - WARNING -  * Debugger is active!
+2025-07-31 00:43:59,602 - INFO -  * Debugger PIN: 308-575-468
+2025-07-31 00:44:07,265 - INFO - 127.0.0.1 - - [31/Jul/2025 00:44:07] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:44:38,311 - INFO - 127.0.0.1 - - [31/Jul/2025 00:44:38] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2025-07-31 00:44:40,343 - INFO - 127.0.0.1 - - [31/Jul/2025 00:44:40] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:45:20,519 - INFO - 127.0.0.1 - - [31/Jul/2025 00:45:20] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2025-07-31 00:45:22,564 - INFO - 127.0.0.1 - - [31/Jul/2025 00:45:22] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:45:35,360 - INFO - 127.0.0.1 - - [31/Jul/2025 00:45:35] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:45:37,415 - INFO - 127.0.0.1 - - [31/Jul/2025 00:45:37] "PATCH /schedule/1/start HTTP/1.1" 200 -
+2025-07-31 00:45:39,529 - INFO - 127.0.0.1 - - [31/Jul/2025 00:45:39] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:45:46,980 - INFO - 127.0.0.1 - - [31/Jul/2025 00:45:46] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:46:06,914 - INFO - 127.0.0.1 - - [31/Jul/2025 00:46:06] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:46:08,988 - INFO - 127.0.0.1 - - [31/Jul/2025 00:46:08] "PATCH /schedule/2/start HTTP/1.1" 200 -
+2025-07-31 00:46:11,110 - INFO - 127.0.0.1 - - [31/Jul/2025 00:46:11] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:47:30,777 - INFO - 127.0.0.1 - - [31/Jul/2025 00:47:30] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:48:30,768 - INFO - 127.0.0.1 - - [31/Jul/2025 00:48:30] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:49:30,471 - INFO - 127.0.0.1 - - [31/Jul/2025 00:49:30] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:50:30,459 - INFO - 127.0.0.1 - - [31/Jul/2025 00:50:30] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:51:30,454 - INFO - 127.0.0.1 - - [31/Jul/2025 00:51:30] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:52:30,424 - INFO - 127.0.0.1 - - [31/Jul/2025 00:52:30] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:53:30,436 - INFO - 127.0.0.1 - - [31/Jul/2025 00:53:30] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:54:30,801 - INFO - 127.0.0.1 - - [31/Jul/2025 00:54:30] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:55:36,785 - INFO - 127.0.0.1 - - [31/Jul/2025 00:55:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:56:36,816 - INFO - 127.0.0.1 - - [31/Jul/2025 00:56:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:57:30,841 - INFO - 127.0.0.1 - - [31/Jul/2025 00:57:30] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:58:36,784 - INFO - 127.0.0.1 - - [31/Jul/2025 00:58:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 00:59:36,796 - INFO - 127.0.0.1 - - [31/Jul/2025 00:59:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:00:36,809 - INFO - 127.0.0.1 - - [31/Jul/2025 01:00:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:01:36,814 - INFO - 127.0.0.1 - - [31/Jul/2025 01:01:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:01:59,095 - WARNING - [AutoMissed] Task 'mail doc' missed. Cloned as new task.
+2025-07-31 01:01:59,139 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\threading.py', reloading
+2025-07-31 01:01:59,141 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\services\\replanner.py', reloading
+2025-07-31 01:01:59,478 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-31 01:02:00,097 - WARNING -  * Debugger is active!
+2025-07-31 01:02:00,099 - INFO -  * Debugger PIN: 308-575-468
+2025-07-31 01:02:36,796 - INFO - 127.0.0.1 - - [31/Jul/2025 01:02:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:03:36,822 - INFO - 127.0.0.1 - - [31/Jul/2025 01:03:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:04:36,828 - INFO - 127.0.0.1 - - [31/Jul/2025 01:04:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:05:36,796 - INFO - 127.0.0.1 - - [31/Jul/2025 01:05:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:06:36,797 - INFO - 127.0.0.1 - - [31/Jul/2025 01:06:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:07:36,785 - INFO - 127.0.0.1 - - [31/Jul/2025 01:07:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:08:36,825 - INFO - 127.0.0.1 - - [31/Jul/2025 01:08:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:09:36,823 - INFO - 127.0.0.1 - - [31/Jul/2025 01:09:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:10:36,809 - INFO - 127.0.0.1 - - [31/Jul/2025 01:10:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:11:36,818 - INFO - 127.0.0.1 - - [31/Jul/2025 01:11:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:12:36,786 - INFO - 127.0.0.1 - - [31/Jul/2025 01:12:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:13:36,790 - INFO - 127.0.0.1 - - [31/Jul/2025 01:13:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:14:36,815 - INFO - 127.0.0.1 - - [31/Jul/2025 01:14:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:15:36,809 - INFO - 127.0.0.1 - - [31/Jul/2025 01:15:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:16:36,855 - INFO - 127.0.0.1 - - [31/Jul/2025 01:16:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:17:36,810 - INFO - 127.0.0.1 - - [31/Jul/2025 01:17:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:18:36,807 - INFO - 127.0.0.1 - - [31/Jul/2025 01:18:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:19:36,794 - INFO - 127.0.0.1 - - [31/Jul/2025 01:19:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:20:36,804 - INFO - 127.0.0.1 - - [31/Jul/2025 01:20:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:21:36,817 - INFO - 127.0.0.1 - - [31/Jul/2025 01:21:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:22:36,796 - INFO - 127.0.0.1 - - [31/Jul/2025 01:22:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:23:36,807 - INFO - 127.0.0.1 - - [31/Jul/2025 01:23:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:24:36,805 - INFO - 127.0.0.1 - - [31/Jul/2025 01:24:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:25:36,800 - INFO - 127.0.0.1 - - [31/Jul/2025 01:25:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:26:36,804 - INFO - 127.0.0.1 - - [31/Jul/2025 01:26:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:27:00,138 - WARNING - [AutoMissed] Task 'note making' missed. Cloned as new task.
+2025-07-31 01:27:36,825 - INFO - 127.0.0.1 - - [31/Jul/2025 01:27:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:28:48,815 - INFO - 127.0.0.1 - - [31/Jul/2025 01:28:48] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:29:48,802 - INFO - 127.0.0.1 - - [31/Jul/2025 01:29:48] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:30:48,805 - INFO - 127.0.0.1 - - [31/Jul/2025 01:30:48] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:31:48,808 - INFO - 127.0.0.1 - - [31/Jul/2025 01:31:48] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:32:48,784 - INFO - 127.0.0.1 - - [31/Jul/2025 01:32:48] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:33:48,812 - INFO - 127.0.0.1 - - [31/Jul/2025 01:33:48] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:35:53,802 - INFO - 127.0.0.1 - - [31/Jul/2025 01:35:53] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:36:53,777 - INFO - 127.0.0.1 - - [31/Jul/2025 01:36:53] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:37:09,950 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\sqlalchemy\\util\\deprecations.py', reloading
+2025-07-31 01:37:10,121 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-31 01:37:10,825 - WARNING -  * Debugger is active!
+2025-07-31 01:37:10,827 - INFO -  * Debugger PIN: 308-575-468
+2025-07-31 01:37:24,243 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\clean_cache.py', reloading
+2025-07-31 01:37:24,256 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\config.py', reloading
+2025-07-31 01:37:24,258 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\log_config.py', reloading
+2025-07-31 01:37:24,259 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\models.py', reloading
+2025-07-31 01:37:24,259 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\scheduler.py', reloading
+2025-07-31 01:37:24,261 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\services\\calender_sync.py', reloading
+2025-07-31 01:37:24,261 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\services\\notification.py', reloading
+2025-07-31 01:37:24,276 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\worker.py', reloading
+2025-07-31 01:37:25,042 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-31 01:37:25,623 - WARNING -  * Debugger is active!
+2025-07-31 01:37:25,625 - INFO -  * Debugger PIN: 308-575-468
+2025-07-31 01:37:34,965 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\services\\replanner.py', reloading
+2025-07-31 01:37:34,966 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\services\\replanner.py', reloading
+2025-07-31 01:37:34,967 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\services\\replanner.py', reloading
+2025-07-31 01:37:35,822 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-31 01:37:36,518 - WARNING -  * Debugger is active!
+2025-07-31 01:37:36,523 - INFO -  * Debugger PIN: 308-575-468
+2025-07-31 01:37:53,790 - INFO - 127.0.0.1 - - [31/Jul/2025 01:37:53] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:38:04,215 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\services\\replanner.py', reloading
+2025-07-31 01:38:04,216 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\services\\replanner.py', reloading
+2025-07-31 01:38:04,218 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\services\\replanner.py', reloading
+2025-07-31 01:38:04,807 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-31 01:38:05,554 - WARNING -  * Debugger is active!
+2025-07-31 01:38:05,557 - INFO -  * Debugger PIN: 308-575-468
+2025-07-31 01:38:15,663 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-31 01:38:15,663 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 01:38:15,674 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-31 01:38:16,221 - WARNING -  * Debugger is active!
+2025-07-31 01:38:16,223 - INFO -  * Debugger PIN: 308-575-468
+2025-07-31 01:38:30,899 - INFO - 127.0.0.1 - - [31/Jul/2025 01:38:30] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:39:58,857 - INFO - [Worker] Listening on localhost:6000
+2025-07-31 01:40:11,016 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-31 01:40:11,016 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-31 01:40:11,026 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-31 01:40:11,575 - WARNING -  * Debugger is active!
+2025-07-31 01:40:11,578 - INFO -  * Debugger PIN: 308-575-468
+2025-07-31 01:40:30,261 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\streamlit\\env_util.py', reloading
+2025-07-31 01:40:30,289 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\streamlit\\delta_generator.py', reloading
+2025-07-31 01:40:30,321 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\streamlit\\components\\v1\\custom_component.py', reloading
+2025-07-31 01:40:30,350 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\streamlit\\runtime\\metrics_util.py', reloading
+2025-07-31 01:40:30,352 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\streamlit_autorefresh\\__init__.py', reloading
+2025-07-31 01:40:30,382 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\streamlit\\runtime\\scriptrunner\\script_runner.py', reloading
+2025-07-31 01:40:30,412 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\content-strategy-assistant\\venv\\Lib\\site-packages\\streamlit\\runtime\\scriptrunner\\exec_code.py', reloading
+2025-07-31 01:40:30,807 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-31 01:40:31,345 - WARNING -  * Debugger is active!
+2025-07-31 01:40:31,347 - INFO -  * Debugger PIN: 308-575-468
+2025-07-31 01:40:32,474 - INFO - 127.0.0.1 - - [31/Jul/2025 01:40:32] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:40:55,391 - INFO - 127.0.0.1 - - [31/Jul/2025 01:40:55] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2025-07-31 01:40:57,454 - INFO - 127.0.0.1 - - [31/Jul/2025 01:40:57] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:41:04,301 - INFO - 127.0.0.1 - - [31/Jul/2025 01:41:04] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:41:06,377 - INFO - 127.0.0.1 - - [31/Jul/2025 01:41:06] "PATCH /schedule/1/start HTTP/1.1" 200 -
+2025-07-31 01:41:08,501 - INFO - 127.0.0.1 - - [31/Jul/2025 01:41:08] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:41:37,666 - INFO - 127.0.0.1 - - [31/Jul/2025 01:41:37] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2025-07-31 01:41:39,732 - INFO - 127.0.0.1 - - [31/Jul/2025 01:41:39] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:41:58,066 - INFO - 127.0.0.1 - - [31/Jul/2025 01:41:58] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:42:00,138 - INFO - 127.0.0.1 - - [31/Jul/2025 01:42:00] "PATCH /schedule/1/start HTTP/1.1" 200 -
+2025-07-31 01:42:02,278 - INFO - 127.0.0.1 - - [31/Jul/2025 01:42:02] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:42:33,617 - INFO - 127.0.0.1 - - [31/Jul/2025 01:42:33] "[35m[1mPOST /tasks HTTP/1.1[0m" 201 -
+2025-07-31 01:42:35,684 - INFO - 127.0.0.1 - - [31/Jul/2025 01:42:35] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:42:52,504 - INFO - 127.0.0.1 - - [31/Jul/2025 01:42:52] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:42:54,586 - INFO - 127.0.0.1 - - [31/Jul/2025 01:42:54] "PATCH /schedule/1/start HTTP/1.1" 200 -
+2025-07-31 01:42:56,737 - INFO - 127.0.0.1 - - [31/Jul/2025 01:42:56] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:43:16,987 - INFO - 127.0.0.1 - - [31/Jul/2025 01:43:16] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:43:19,069 - INFO - 127.0.0.1 - - [31/Jul/2025 01:43:19] "PATCH /schedule/2/start HTTP/1.1" 200 -
+2025-07-31 01:43:21,217 - INFO - 127.0.0.1 - - [31/Jul/2025 01:43:21] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:43:39,238 - INFO - 127.0.0.1 - - [31/Jul/2025 01:43:39] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:43:41,317 - INFO - 127.0.0.1 - - [31/Jul/2025 01:43:41] "PATCH /schedule/2/complete HTTP/1.1" 200 -
+2025-07-31 01:43:43,449 - INFO - 127.0.0.1 - - [31/Jul/2025 01:43:43] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:43:47,448 - INFO - 127.0.0.1 - - [31/Jul/2025 01:43:47] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:45:03,752 - INFO - 127.0.0.1 - - [31/Jul/2025 01:45:03] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:46:03,791 - INFO - 127.0.0.1 - - [31/Jul/2025 01:46:03] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:47:03,805 - INFO - 127.0.0.1 - - [31/Jul/2025 01:47:03] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:48:03,800 - INFO - 127.0.0.1 - - [31/Jul/2025 01:48:03] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:49:03,787 - INFO - 127.0.0.1 - - [31/Jul/2025 01:49:03] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:50:03,803 - INFO - 127.0.0.1 - - [31/Jul/2025 01:50:03] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:51:36,783 - INFO - 127.0.0.1 - - [31/Jul/2025 01:51:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:52:36,794 - INFO - 127.0.0.1 - - [31/Jul/2025 01:52:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:53:36,801 - INFO - 127.0.0.1 - - [31/Jul/2025 01:53:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:54:36,804 - INFO - 127.0.0.1 - - [31/Jul/2025 01:54:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:55:36,786 - INFO - 127.0.0.1 - - [31/Jul/2025 01:55:36] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:57:00,753 - INFO - 127.0.0.1 - - [31/Jul/2025 01:57:00] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:58:00,798 - INFO - 127.0.0.1 - - [31/Jul/2025 01:58:00] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 01:59:00,789 - INFO - 127.0.0.1 - - [31/Jul/2025 01:59:00] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 02:00:00,799 - INFO - 127.0.0.1 - - [31/Jul/2025 02:00:00] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 02:00:59,797 - INFO - 127.0.0.1 - - [31/Jul/2025 02:00:59] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 02:02:12,807 - INFO - 127.0.0.1 - - [31/Jul/2025 02:02:12] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 02:03:12,819 - INFO - 127.0.0.1 - - [31/Jul/2025 02:03:12] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 02:04:12,798 - INFO - 127.0.0.1 - - [31/Jul/2025 02:04:12] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 02:05:12,810 - INFO - 127.0.0.1 - - [31/Jul/2025 02:05:12] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 02:06:11,124 - WARNING - [AutoMissed] Task 'plan day' missed. Cloned as new task.
+2025-07-31 02:06:11,135 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\threading.py', reloading
+2025-07-31 02:06:11,136 - INFO -  * Detected change in 'C:\\Users\\Nishtha Basak\\final_projects\\software\\AutoTaskr\\backend\\app.py', reloading
+2025-07-31 02:06:12,285 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-31 02:06:13,333 - WARNING -  * Debugger is active!
+2025-07-31 02:06:13,336 - INFO -  * Debugger PIN: 308-575-468
+2025-07-31 02:06:13,376 - INFO - 127.0.0.1 - - [31/Jul/2025 02:06:13] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 02:07:12,832 - INFO - 127.0.0.1 - - [31/Jul/2025 02:07:12] "GET /schedule HTTP/1.1" 200 -
+2025-07-31 02:09:08,807 - INFO - 127.0.0.1 - - [31/Jul/2025 02:09:08] "GET /schedule HTTP/1.1" 200 -
